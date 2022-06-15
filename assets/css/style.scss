@@ -1,3 +1,52 @@
+$white: #fff;
+$purple: #8c1b59;
+$pink: #e6007e;
+
 .slotholder {
     filter: brightness(.5) contrast(.8) !important;
+}
+
+.mega-menu {
+    &.menu-links {
+        > li {
+            > a {
+                &:hover {
+                    color: $white;
+                    opacity: .6;
+                }
+            }
+        }
+    }
+    &.desktopTopFixed {
+        .menu-list-items {
+            background: $purple;
+            box-shadow: 0px 0px 20px #380e25;
+        }
+    }
+}
+
+.owl-stage-outer {
+    .owl-item {
+        img {
+            filter: grayscale(1);
+            transition: all .3s;
+        }
+        &:hover {
+            img {
+                filter: grayscale(0);
+            }
+        }
+    }
+}
+
+.button {
+    &.white {
+        &:hover {
+            background: $pink;
+        }
+    }
+}
+
+.feature-text.theme-icon:hover .feature-icon span, .feature-text.theme-icon:hover .feature-icon i {
+    background: $pink;
 }

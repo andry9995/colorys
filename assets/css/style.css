@@ -2,4 +2,35 @@
   -webkit-filter: brightness(0.5) contrast(0.8) !important;
           filter: brightness(0.5) contrast(0.8) !important;
 }
+
+.mega-menu.menu-links > li > a:hover {
+  color: #fff;
+  opacity: .6;
+}
+
+.mega-menu.desktopTopFixed .menu-list-items {
+  background: #8c1b59;
+  -webkit-box-shadow: 0px 0px 20px #380e25;
+          box-shadow: 0px 0px 20px #380e25;
+}
+
+.owl-stage-outer .owl-item img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.owl-stage-outer .owl-item:hover img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.button.white:hover {
+  background: #e6007e;
+}
+
+.feature-text.theme-icon:hover .feature-icon span, .feature-text.theme-icon:hover .feature-icon i {
+  background: #e6007e;
+}
 /*# sourceMappingURL=style.css.map */
