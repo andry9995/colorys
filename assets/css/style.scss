@@ -1,6 +1,7 @@
 $white: #fff;
 $purple: #8c1b59;
 $pink: #e6007e;
+$orange: #fa650f;
 
 .slotholder {
     filter: brightness(.5) contrast(.8) !important;
@@ -42,11 +43,11 @@ $pink: #e6007e;
 .button {
     &.white {
         &:hover {
-            background: $pink;
+            background: $orange;
         }
     }
 }
 
 .feature-text.theme-icon:hover .feature-icon span, .feature-text.theme-icon:hover .feature-icon i {
-    background: $pink;
+    background: $orange;
 }
