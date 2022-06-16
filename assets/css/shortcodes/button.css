@@ -18,7 +18,7 @@ button { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-
 .button.gray { background: #e0e0e0; color: #353535; border:2px solid #e0e0e0; }
 .button.gray:hover, .button.gray.active, .button.gray:focus { background: #84ba3f; color: #ffffff; border-color: #84ba3f;}
 .button.white { background: #fff; color: #8c1b59; border-color: #ffffff; }
-.button.white:hover, .button.white:focus { background: #353535; color: #ffffff; border-color: #353535;}
+.button.white:hover, .button.white:focus { background: #353535; color: #ffffff; border-color: #ffffff;}
 .button.button-border { background: transparent; border: 2px solid #84ba3f; color: #323232; }
 .button.button-border:hover, .button.button-border:focus { background: #84ba3f; color: #ffffff; border-color: #84ba3f; }
 .button.button-border.gray { background: transparent; border: 2px solid #e0e0e0; color: #aaaaaa; }
