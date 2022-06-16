@@ -33,4 +33,46 @@
 .feature-text.theme-icon:hover .feature-icon span, .feature-text.theme-icon:hover .feature-icon i {
   background: #fa650f;
 }
+
+.footer.black-bg {
+  background: #62133e;
+  position: relative;
+}
+
+iframe.map_colorys {
+  bottom: -20px;
+  border-top: 5px solid #8c1b59;
+}
+
+.blog-box.blog-2 .button.icon-color {
+  margin-bottom: 1rem;
+}
+
+.blog-box.blog-2 .post-category a {
+  letter-spacing: 0;
+}
+
+.blog-box.blog-2 img {
+  -webkit-filter: sepia(1);
+          filter: sepia(1);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.blog-box.blog-2:hover .post-category a {
+  letter-spacing: 2px;
+}
+
+.blog-box.blog-2:hover img {
+  -webkit-filter: sepia(0);
+          filter: sepia(0);
+}
+
+.button.icon-color:hover i {
+  background: #8c1b59;
+}
+
+.footer-widget {
+  border-top: 1px solid #26262675;
+}
 /*# sourceMappingURL=style.css.map */

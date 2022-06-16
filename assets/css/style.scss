@@ -1,5 +1,6 @@
 $white: #fff;
 $purple: #8c1b59;
+$dark_purple: #62133e;
 $pink: #e6007e;
 $orange: #fa650f;
 
@@ -50,4 +51,47 @@ $orange: #fa650f;
 
 .feature-text.theme-icon:hover .feature-icon span, .feature-text.theme-icon:hover .feature-icon i {
     background: $orange;
+}
+
+.footer.black-bg {
+    background: $dark_purple;
+    position: relative;
+}
+
+iframe.map_colorys {
+    bottom: -20px;
+    border-top: 5px solid $purple;
+}
+
+.blog-box.blog-2 {
+    .button.icon-color {
+        margin-bottom: 1rem;
+    }
+    .post-category {
+        a {
+            letter-spacing: 0;
+        }
+    }
+    img {
+        filter: sepia(1);
+        transition: all .3s;
+    }
+    &:hover {
+        .post-category {
+            a {
+                letter-spacing: 2px;
+            }
+        }
+        img {
+            filter: sepia(0);
+        }
+    }
+}
+
+.button.icon-color:hover i {
+    background: $purple;
+}
+
+.footer-widget {
+    border-top: 1px solid #26262675;
 }
