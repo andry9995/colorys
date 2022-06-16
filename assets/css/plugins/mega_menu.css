@@ -16,7 +16,7 @@
   .mega-menu .menu-logo img { height: 40px; }
   .mega-menu input {  /*------------------------------ DEFAULT INPUT */
   border: none; }
-  .mega-menu > section.menu-list-items { margin: 0; padding: 35px 0; display: block; float: left; width: 100%; background-color: rgb(140 27 89 / 20%); }
+  .mega-menu > section.menu-list-items { margin: 0; padding: 35px 0; display: block; float: left; width: 100%; background-color: rgb(0 0 0 / 20%); }
   .mega-menu .menu-logo {  /*----------------------------------- MENU LOGO */
   margin: 0; padding: 0; display: block; float: left; position: relative; }
   @media screen and (min-width:992px) {
