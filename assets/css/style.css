@@ -14,6 +14,50 @@
           box-shadow: 0px 0px 20px #380e25;
 }
 
+.mega-menu .drop-down-multilevel li > a {
+  font-size: 1rem;
+}
+
+.mega-menu .drop-down-multilevel li:hover {
+  background: #fa650f;
+}
+
+.mega-menu .drop-down-multilevel li:hover > a {
+  color: #fff;
+}
+
+*::-moz-selection {
+  background: #8c1b5940;
+}
+
+*::selection {
+  background: #8c1b5940;
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: unset;
+}
+
+.blog-overlay::before {
+  opacity: 1;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.blog-overlay h4 a {
+  color: #fff;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.blog-overlay:hover h4 a {
+  color: #8c1b59;
+}
+
+.blog-overlay:hover::before {
+  opacity: .3;
+}
+
 .owl-stage-outer .owl-item img {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);

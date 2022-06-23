@@ -25,6 +25,50 @@ $orange: #fa650f;
             box-shadow: 0px 0px 20px #380e25;
         }
     }
+    .drop-down-multilevel {
+        li {
+            > a {
+                font-size: 1rem;
+            }
+            &:hover {
+                background: $orange;
+                > a {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+*::selection {
+    background: #8c1b5940;
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: unset;
+}
+
+.blog-overlay {
+    &::before {
+        opacity: 1;
+        transition: all .5s;
+    }
+    h4 {
+        a {
+            color: $white;
+            transition: all .5s;
+        }
+    }
+    &:hover {
+        h4 {
+            a {
+                color: $purple
+            }
+        }
+        &::before {
+            opacity: .3;
+        }
+    }
 }
 
 .owl-stage-outer {
