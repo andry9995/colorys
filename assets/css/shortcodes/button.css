@@ -9,9 +9,9 @@ NOTE: This file contains button CSS.
 /***************************
         button
 ***************************/
-.button { background: #84ba3f; padding: 10px 20px; font-size: 13px; letter-spacing: 1px; font-family: 'Montserrat', sans-serif; border: 0; color: #ffffff; text-transform: uppercase; font-weight: 500; display: inline-block; border-radius: 3px; text-align: center; border:2px solid #84ba3f; cursor: pointer; }
+.button { background: #8c1b59; padding: 10px 20px; font-size: 13px; letter-spacing: 1px; font-family: 'Montserrat', sans-serif; border: 0; color: #ffffff; text-transform: uppercase; font-weight: 500; display: inline-block; border-radius: 3px; text-align: center; border:2px solid #8c1b59; cursor: pointer; }
 .button + .button {margin-left: 20px;}
-.button:hover, .button:focus { background: #353535; color: #ffffff; border-color: #353535; }
+.button:hover, .button:focus { background: #fa650f; color: #ffffff; border-color: #fa650f; }
 button { transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; }
 .button.black { background: #353535; color: #ffffff; border:2px solid #353535;}
 .button.black:hover, .button.black.active, .button.black:focus { background: #84ba3f; color: #ffffff; border-color: #84ba3f; }
