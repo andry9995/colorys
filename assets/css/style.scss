@@ -95,6 +95,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .feature-text.theme-icon:hover .feature-icon span, .feature-text.theme-icon:hover .feature-icon i {
     background: $orange;
+    border: 2px solid #fff;
 }
 
 .footer.black-bg {

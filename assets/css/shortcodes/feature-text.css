@@ -18,7 +18,7 @@ NOTE: This file contains Features box CSS.
 .feature-text.round .feature-icon span, .feature-text.round .feature-icon i { width: 70px; height: 70px; line-height: 70px;  display: inline-block; font-size: 26px; border-radius: 50%; padding-left: 0px; }
 .feature-text.feature-border .feature-icon span, .feature-text.feature-border .feature-icon i { color: #323232; background: transparent; border:2px solid #323232; padding-left: 0px; }
 .feature-text.gray-icon .feature-icon span, .feature-text.gray-icon .feature-icon i {  color: #323232; background: #f6f7f8; padding-left: 0px; }
-.feature-text.theme-icon .feature-icon span, .feature-text.theme-icon .feature-icon i { color: #ffffff; background: #8c1b59; padding-left: 0px; }
+.feature-text.theme-icon .feature-icon span, .feature-text.theme-icon .feature-icon i { color: #ffffff; background: #8c1b59; padding-left: 0px; border: 2px solid;}
 .feature-text.shadow .feature-icon span, .feature-text.shadow .feature-icon i {  color: #323232; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.09); padding-left: 0px; }
 .feature-text.square .feature-icon span, .feature-text.square .feature-icon i { width: 70px; height: 70px; line-height: 70px;  display: inline-block; font-size: 26px; padding-left: 0px;}
 .feature-text.text-center .feature-icon span, .feature-text.text-center .feature-icon i { padding-left: 0; }

@@ -2198,8 +2198,12 @@ h2.title-gradian {
 }
 
 h5.text-back {
-    color: #8c1b59;
+    color: #fff;
     text-transform: uppercase;
+}
+
+.feature-info p {
+    color: #fff;
 }
 
 iframe.map_colorys {
