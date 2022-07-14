@@ -195,7 +195,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 /*dark*/
 .header.dark {  background: #323232; position: relative; }
-.header.transparent { background: rgba(0, 0, 0, 0.4); position: absolute; width: 100%; z-index:  999; } 
+.header.transparent { position: absolute; width: 100%; z-index:  999; } 
 
 /*left-menu*/
 .header.left-menu .menu-bar { float: none; }

@@ -3,9 +3,17 @@ $purple: #8c1b59;
 $dark_purple: #62133e;
 $pink: #e6007e;
 $orange: #fa650f;
+$yellow: #f9be39;
 
 .slotholder {
-    filter: brightness(.5) contrast(.8) !important;
+    filter: brightness(.8) contrast(1) !important;
+}
+
+.tp-caption {
+    img {
+        max-width: 700px !important;
+        height: auto !important;
+    }
 }
 
 .mega-menu {
@@ -19,12 +27,6 @@ $orange: #fa650f;
             }
         }
     }
-    &.desktopTopFixed {
-        .menu-list-items {
-            background: $purple;
-            box-shadow: 0px 0px 20px #380e25;
-        }
-    }
     .drop-down-multilevel {
         li {
             > a {
@@ -34,6 +36,40 @@ $orange: #fa650f;
                 background: $orange;
                 > a {
                     color: $white;
+                }
+            }
+        }
+    }
+    .menu-list-items {
+        background-color: $pink !important;
+        > .container {
+            &::after {
+                // content: url(../images/paint.svg);
+                content: '';
+                max-width: 32rem;
+                display: block;
+                left: 0;
+                transform: translateX(-25%);
+                // fill: red;
+                
+                -webkit-mask: url(../images/paint.svg) no-repeat 50% 50%;
+                mask: url(../images/paint.svg) no-repeat 50% 50%;
+                // -webkit-mask-size: cover;
+                // mask-size: cover;
+                aspect-ratio: 5/2;
+                background: $pink;
+            }
+        }
+    }
+    &.desktopTopFixed {
+        .menu-list-items {
+            // background: $purple;
+            display: none;
+            // box-shadow: 0px 0px 20px #380e25;
+            > .container {
+                &::after {
+                    // background: #8c1b59;
+                    display: none;
                 }
             }
         }
@@ -99,7 +135,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer.black-bg {
-    background: $dark_purple;
+    background: $purple;
     position: relative;
 }
 
@@ -138,5 +174,20 @@ iframe.map_colorys {
 }
 
 .footer-widget {
-    border-top: 1px solid #26262675;
+    border-top: 1px solid #ffffff45;
+}
+
+.footer.footer-one-page p,
+.footer.footer-one-page h5,
+.footer.black-bg .social-icons li a {
+    color: $white;
+}
+
+#back-to-top .top {
+    background: $orange;
+}
+
+.hermes.tparrows,
+.hermes .tp-arr-titleholder {
+    background: #e6007fa8;
 }
