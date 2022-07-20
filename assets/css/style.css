@@ -26,7 +26,7 @@
 }
 
 .mega-menu .menu-list-items {
-  background-color: #e6007e !important;
+  background-color: #b62269 !important;
 }
 
 .mega-menu .menu-list-items > .container::after {
@@ -39,7 +39,7 @@
   -webkit-mask: url(../images/paint.svg) no-repeat 50% 50%;
   mask: url(../images/paint.svg) no-repeat 50% 50%;
   aspect-ratio: 5/2;
-  background: #e6007e;
+  background: #b62269;
 }
 
 .mega-menu.desktopTopFixed .menu-list-items {
