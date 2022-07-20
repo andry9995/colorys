@@ -4,6 +4,8 @@ $dark_purple: #62133e;
 $pink: #e6007e;
 $orange: #fa650f;
 $yellow: #f9be39;
+$blue: #38316B;
+$green: #8B933B;
 $purple_gradient: linear-gradient(66deg, rgba(123,22,71,1) 0%, rgba(182,34,105,1) 100%);
 
 .slotholder {
@@ -136,7 +138,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer.black-bg {
-    background: $purple;
+    background: $green;
     position: relative;
 }
 
