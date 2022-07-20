@@ -1055,3 +1055,11 @@ var _arr  = {};
 $(document).on('click','a.frame-close', function(e){
   $('.header-preview').slideUp();
 });
+
+// $(".home").ripples({
+//     //resolution: 256,
+//     //perturbance: 0.04,
+//     //resolution: 512,
+//     dropRadius: 20,
+//     perturbance: 0.04,
+// });

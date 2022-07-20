@@ -2214,3 +2214,7 @@ iframe.map_colorys {
     position: relative;
     border: 0;
 }
+
+.product-title {
+    text-transform: uppercase;
+}
