@@ -49,10 +49,10 @@ $purple_gradient: linear-gradient(66deg, rgba(123,22,71,1) 0%, rgba(182,34,105,1
             &::after {
                 // content: url(../images/paint.svg);
                 content: '';
-                max-width: 32rem;
+                max-width: 15rem;
                 display: block;
                 left: 0;
-                transform: translateX(-25%);
+                // transform: translateX(-25%);
                 // fill: red;
                 
                 -webkit-mask: url(../images/paint.svg) no-repeat 50% 50%;
