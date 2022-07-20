@@ -614,7 +614,7 @@ margin-left: -17px; line-height: 50px; }
  .white-bg { background: #fff; }
  .gray-bg { background: #f7f7f7; }
  .dark-gray-bg { background: #666666; }
- .theme-bg { background: #8c1b59; }
+ .theme-bg { background: linear-gradient(66deg, rgba(123,22,71,1) 0%, rgba(182,34,105,1) 100%); }
  .black-bg { background: #323232; }
  .dark-theme-bg { background: #050801; }
 

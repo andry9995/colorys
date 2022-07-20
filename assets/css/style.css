@@ -122,6 +122,7 @@ iframe.map_colorys {
 }
 
 .blog-box.blog-2 img {
+  width: 100%;
   -webkit-filter: sepia(1);
           filter: sepia(1);
   -webkit-transition: all .3s;
@@ -158,5 +159,28 @@ iframe.map_colorys {
 .hermes.tparrows,
 .hermes .tp-arr-titleholder {
   background: #e6007fa8;
+}
+
+.colored_bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.colored_bg::after {
+  content: url(../images/colorys_bcg.svg);
+  position: absolute;
+  height: 100%;
+  right: 0;
+  z-index: 1;
+  aspect-ratio: 3/2;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  opacity: .4;
+}
+
+.colored_bg > .container {
+  position: relative;
+  z-index: 2;
 }
 /*# sourceMappingURL=style.css.map */

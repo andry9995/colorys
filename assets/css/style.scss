@@ -4,6 +4,7 @@ $dark_purple: #62133e;
 $pink: #e6007e;
 $orange: #fa650f;
 $yellow: #f9be39;
+$purple_gradient: linear-gradient(66deg, rgba(123,22,71,1) 0%, rgba(182,34,105,1) 100%);
 
 .slotholder {
     filter: brightness(.8) contrast(1) !important;
@@ -154,6 +155,7 @@ iframe.map_colorys {
         }
     }
     img {
+        width: 100%;
         filter: sepia(1);
         transition: all .3s;
     }
@@ -190,4 +192,24 @@ iframe.map_colorys {
 .hermes.tparrows,
 .hermes .tp-arr-titleholder {
     background: #e6007fa8;
+}
+
+.colored_bg {
+    position: relative;
+    overflow: hidden;
+    &::after {
+        content: url(../images/colorys_bcg.svg);
+        position: absolute;
+        height: 100%;
+        right: 0;
+        z-index: 1;
+        aspect-ratio: 3/2;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: .4;
+    }
+    > .container {
+        position: relative;
+        z-index: 2;
+    }
 }
