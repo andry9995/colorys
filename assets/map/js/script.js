@@ -1,6 +1,6 @@
 (function($) {
 // var map = L.map('map').setView([47.08, 2.68], 5);
-var map = L.map('map').setView([-18.875190119730934, 47.52384884906241], 17);
+var map = L.map('map').setView([-18.875190119730934, 47.52384884906241], 18);
 
 // var mymap = L.tileLayer('https://tile.jawg.io/8b8839af-d378-47c5-aa50-5854da3e7bd1/{z}/{x}/{y}{r}.png?access-token=axaCe8tpmQLITWU4ygLT8N2NZWpdNGZvqILtPPbM4E6Rmd7MmviL1Huu0T5XC7BB', {
 var mymap = L.tileLayer('https://tile.jawg.io/jawg-streets/{z}/{x}/{y}{r}.png?access-token=axaCe8tpmQLITWU4ygLT8N2NZWpdNGZvqILtPPbM4E6Rmd7MmviL1Huu0T5XC7BB', {
