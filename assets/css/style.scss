@@ -215,3 +215,11 @@ iframe.map_colorys {
         z-index: 2;
     }
 }
+
+#map {
+    background-image: url(../images/map.jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
